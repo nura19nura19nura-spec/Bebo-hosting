@@ -14,7 +14,7 @@ from telegram.ext import (
     CallbackQueryHandler, ContextTypes, filters
 )
 
-TOKEN = os.getenv("BOT_TOKEN", "")
+TOKEN = os.getenv("BOT_TOKEN", "9162956375:AAFrPLjKQT1utjC0p134H1z3PYFmO0TI1os")
 OWNER_ID = int(os.getenv("OWNER_ID", "0"))
 
 BASE = Path("data")
